@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{cea80641-5bef-43a2-bd91-1f63e25a61bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gmtl Helpers">
+      <UniqueIdentifier>{108edfc1-e7af-41ac-914b-722d14d2e4e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h" />
+    <ClInclude Include="Geometry\Angle.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="GmtlHelpers\MathHelper.h">
+      <Filter>Gmtl Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GmtlHelpers\QuatHelper.h">
+      <Filter>Gmtl Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\LatLon.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Position.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp" />
+    <ClCompile Include="Geometry\Angle.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="GmtlHelpers\QuatHelper.cpp">
+      <Filter>Gmtl Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\LatLon.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="GmtlHelpers\MathHelper.cpp">
+      <Filter>Gmtl Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Position.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
