@@ -85,10 +85,11 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <WarningLevel>Level4</WarningLevel>
-      <Optimization>Disabled</Optimization>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>..\..\libsrc\gmtl-0.6.1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -127,15 +128,18 @@
     <ClInclude Include="Geometry\Angle.h" />
     <ClInclude Include="Geometry\LatLon.h" />
     <ClInclude Include="Geometry\Position.h" />
+    <ClInclude Include="Geometry\Sector.h" />
     <ClInclude Include="GmtlHelpers\MathHelper.h" />
+    <ClInclude Include="GmtlHelpers\MatrixHelper.h" />
     <ClInclude Include="GmtlHelpers\QuatHelper.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Core.cpp" />
     <ClCompile Include="Geometry\Angle.cpp" />
     <ClCompile Include="Geometry\LatLon.cpp" />
     <ClCompile Include="Geometry\Position.cpp" />
+    <ClCompile Include="Geometry\Sector.cpp" />
     <ClCompile Include="GmtlHelpers\MathHelper.cpp" />
+    <ClCompile Include="GmtlHelpers\MatrixHelper.cpp" />
     <ClCompile Include="GmtlHelpers\QuatHelper.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

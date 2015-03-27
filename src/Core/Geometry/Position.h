@@ -3,6 +3,7 @@
 
 #include "..\Core.h"
 #include "LatLon.h"
+#include "..\GmtlHelpers\MatrixHelper.h"
 
 class Position : public LatLon
 {
@@ -15,7 +16,7 @@ public:
 	static Position			FromRadians(double latitude, double longitude, double elevation);
 	static Position			FromDegrees(double latitude, double longitude, double elevation);
 	static Position			FromDegrees(double latitude, double longitude);
-
+	
 	/**
 	* Returns the linear interpolation of <code>value1</code> and <code>value2</code>, treating the geographic
 	* locations as simple 2D coordinate pairs, and treating the elevation values as 1D scalars.

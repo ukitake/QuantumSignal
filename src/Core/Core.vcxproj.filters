@@ -25,9 +25,14 @@
     <ClInclude Include="Geometry\Position.h">
       <Filter>Geometry</Filter>
     </ClInclude>
+    <ClInclude Include="GmtlHelpers\MatrixHelper.h">
+      <Filter>Gmtl Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Sector.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Core.cpp" />
     <ClCompile Include="Geometry\Angle.cpp">
       <Filter>Geometry</Filter>
     </ClCompile>
@@ -41,6 +46,12 @@
       <Filter>Gmtl Helpers</Filter>
     </ClCompile>
     <ClCompile Include="Geometry\Position.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="GmtlHelpers\MatrixHelper.cpp">
+      <Filter>Gmtl Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Sector.cpp">
       <Filter>Geometry</Filter>
     </ClCompile>
   </ItemGroup>
