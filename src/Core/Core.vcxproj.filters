@@ -7,6 +7,9 @@
     <Filter Include="Gmtl Helpers">
       <UniqueIdentifier>{108edfc1-e7af-41ac-914b-722d14d2e4e8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Globes">
+      <UniqueIdentifier>{22489c4d-498d-4bb7-b25f-25a70323afbd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core.h" />
@@ -31,6 +34,24 @@
     <ClInclude Include="Geometry\Sector.h">
       <Filter>Geometry</Filter>
     </ClInclude>
+    <ClInclude Include="Globes\Globe.h">
+      <Filter>Globes</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Extent.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Line.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Intersection.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Plane.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Frustum.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Geometry\Angle.cpp">
@@ -52,6 +73,15 @@
       <Filter>Gmtl Helpers</Filter>
     </ClCompile>
     <ClCompile Include="Geometry\Sector.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Line.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Plane.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Frustum.cpp">
       <Filter>Geometry</Filter>
     </ClCompile>
   </ItemGroup>

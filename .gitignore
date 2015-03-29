@@ -25,3 +25,4 @@ libsrc/gmtl-0.6.1/README
 libsrc/gmtl-0.6.1/README-PyGMTL
 libsrc/gmtl-0.6.1/SConstruct
 libsrc/gmtl-0.6.1/gmtl-config
+src/x64/

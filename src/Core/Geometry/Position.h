@@ -72,6 +72,7 @@ public:
 	static Position			InterpolateRhumb(const Position& value1, const Position& value2, double amount);
 
 	Position();
+	Position(const Position& position);
 	Position(const Angle& lat, const Angle& lon, double elev);
 	Position(const LatLon& latLon, double elev);
 

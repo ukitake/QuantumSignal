@@ -126,16 +126,25 @@
   <ItemGroup>
     <ClInclude Include="Core.h" />
     <ClInclude Include="Geometry\Angle.h" />
+    <ClInclude Include="Geometry\Extent.h" />
+    <ClInclude Include="Geometry\Frustum.h" />
+    <ClInclude Include="Geometry\Intersection.h" />
     <ClInclude Include="Geometry\LatLon.h" />
+    <ClInclude Include="Geometry\Line.h" />
+    <ClInclude Include="Geometry\Plane.h" />
     <ClInclude Include="Geometry\Position.h" />
     <ClInclude Include="Geometry\Sector.h" />
+    <ClInclude Include="Globes\Globe.h" />
     <ClInclude Include="GmtlHelpers\MathHelper.h" />
     <ClInclude Include="GmtlHelpers\MatrixHelper.h" />
     <ClInclude Include="GmtlHelpers\QuatHelper.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Geometry\Angle.cpp" />
+    <ClCompile Include="Geometry\Frustum.cpp" />
     <ClCompile Include="Geometry\LatLon.cpp" />
+    <ClCompile Include="Geometry\Line.cpp" />
+    <ClCompile Include="Geometry\Plane.cpp" />
     <ClCompile Include="Geometry\Position.cpp" />
     <ClCompile Include="Geometry\Sector.cpp" />
     <ClCompile Include="GmtlHelpers\MathHelper.cpp" />

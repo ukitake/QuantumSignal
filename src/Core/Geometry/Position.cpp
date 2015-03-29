@@ -6,6 +6,13 @@ Position position_zero = Position::FromDegrees(0.0, 0.0);
 
 Position::Position() : LatLon(), elevation(0.0) { }
 
+Position::Position(const Position& pos)
+{
+	this->latitude = pos.latitude;
+	this->longitude = pos.longitude;
+	this->elevation = pos.elevation;
+}
+
 Position::Position(double lat, double lon, double elev) : LatLon(lat, lon), elevation(elev)
 {
 }
